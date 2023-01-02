@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     width: auto;
-    height: 713px;
+    height: 100vh;
     background: #F4F4F4;
     align-items: center;
     gap: 36px;
@@ -26,14 +26,15 @@ body {
 .flex-box {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 
 }
 
 .box1 {
-    width: 500px;
-    height: 110px;
-
+   
+    width: 50vw ;
+    height: 15vh;
+    margin: 5px;
     background: #FFFFFF;
     border-radius: 10px 0px 0px 0px;
 }
@@ -42,7 +43,7 @@ body {
     position: absolute;
     width: 35px;
     height: 35px;
-    left: 1450px;
+    left: 90%;
     top: 15px;
     box-shadow: 0px 3px 7px 2px #5135BC;
     background: #F4F4F4;
@@ -159,4 +160,3 @@ input::placeholder {
     opacity: 0.25;
     color: rgb(209, 209, 209);
 }
-
